@@ -2,7 +2,7 @@
 <h2>👨‍💻 Software Enginner Projects:</h2>
 
 - <b>SP500 stutanability</b>
-  - [build a web page in python shows the stutanability of the SP500](https://github.com/joshmadakor1/Algorithms-Practice)
+  - [build a web page in python shows the stutanability of the SP500](https://github.com/Jeanj15/SP500Sstock-stutanability)
 - <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
   - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
 - <b>PowerShell</b>
