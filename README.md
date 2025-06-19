@@ -1,85 +1,82 @@
-# Hello, I'm jean joachim 
-<a href="https://linkedin.com"><img src=https://www.linkedin.com/in/jean-joachim-b421b7238/ /></a>
+# 🔐 Jean Joachim's Cybersecurity Projects
 
-My name is Jean Joachim, and I am a student at the University of Central Florida’s College of Engineering and Computer Science, majoring in Information Technology with a focus on cybersecurity and incident response. Alongside my studies, I am actively engaged in software development projects. My passion for advancing artificial intelligence has also led me to conduct undergraduate research exploring AI's transformative potential in reshaping the healthcare system.
+Welcome to my cybersecurity portfolio! This repository showcases hands-on, advanced-level projects in network defense, offensive security, and secure software development. These projects go beyond tutorials and demonstrate my technical depth and problem-solving in real-world scenarios.
 
-## Objective
-My journey in Informatin Technology  has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+---
 
-# Cybersecurity Portfolio
+## 📜 Certifications
 
-[![CompTIA Security+](https://img.shields.io/badge/Certification-Security%2B-blue)]()
-[![Google Cybersecurity](https://img.shields.io/badge/Certification-Google%20Cybersecurity-red)]()
+- **CompTIA Security+ (SY0-601)**  
+  *Issued: [Month Year]*  
+  Credential ID: [Add ID if applicable]  
+  [🔗 View Certificate](#) *(Optional: add a link to Credly or PDF)*
 
-## Overview
+---
 
-Welcome to my Cybersecurity Portfolio! This repository serves as an overview of my skills, experience, and hands-on projects in cybersecurity. With a background in both IT and cybersecurity, I have worked across various domains, including malware analysis, security information and event management (SIEM), and vulnerability assessment. Here, I share my knowledge and practical experience, aiming to contribute to the field and collaborate with other security enthusiasts.
+## 📁 Projects
 
-## Skills
+### 🛡️ Network Intrusion Detection System (NIDS)
+**Description:** Custom NIDS built using Suricata with custom rulesets to detect port scans, DNS tunneling, and brute-force login attempts.  
+**Skills:** Suricata, PCAP analysis, IDS rule writing, Linux, ELK Stack  
+**Highlights:**
+- Wrote and tuned custom rules for real-world threat patterns
+- Integrated Suricata logs into Kibana for real-time alerting
 
-### Certifications
-- **CompTIA Security+**
-- **Google Cybersecurity Certificate**
+[🔗 View Project](./NIDS-Detection)
 
-### Technical Skills
+---
 
-#### Security Operations
-- **SIEM Development**: Proficient in creating SIEM systems using the ELK Stack. I have configured role-based access control (RBAC) and implemented secure communication through SSL/TLS and authentication mechanisms.
-- **Data Visualization and Dashboards**: Customized dashboards in Kibana for real-time monitoring and analysis. Developed alerting mechanisms to identify suspicious activities and potential security incidents.
+### 🧬 Malware Analysis Lab
+**Description:** Analyzed Windows malware samples in an isolated environment using behavioral and static analysis tools.  
+**Skills:** VirtualBox, Process Monitor, Wireshark, PEStudio, Ghidra  
+**Highlights:**
+- Identified C2 traffic and unpacked obfuscated strings
+- Reverse-engineered a basic keylogger
 
-#### Malware Analysis
-- **Tools**: VMware Workstation, VirtualBox, Wireshark, Process Monitor
-- **Experience**: Conducted malware analysis to study threat behaviors, gather Indicators of Compromise (IOCs), and understand attack vectors. Familiar with setting up isolated environments for safe malware investigation.
+[🔗 View Project](./Malware-Analysis)
 
-#### Vulnerability Assessment & Penetration Testing
-- **Tools**: Nessus, Wireshark, Metasploit, Nmap, Burp Suite
-- **CTF (Capture The Flag) Experience**: Developed proficiency in CTF challenges using Burp Suite, Metasploit, Wireshark, and Ghidra for practical threat analysis and response.
+---
 
-#### Network Security
-- **Network Protocol Analysis**: Skilled in analyzing network traffic to detect anomalies and potential threats using tools like Wireshark.
-- **Security Monitoring**: Experienced in monitoring and defending both Windows and Linux environments against unauthorized access, using SIEM systems and automated alerts.
+### 💥 Binary Exploitation (Pwn)
+**Description:** Exploited CTF-style binary challenges (buffer overflows, format strings, ROP chains).  
+**Skills:** GDB, pwntools, ASLR bypassing, ret2libc  
+**Highlights:**
+- Wrote Python scripts to automate exploit payloads
+- Developed ROP chains to bypass NX and leak libc addresses
 
-#### Programming & Scripting
-- **Languages**: Python, C/C++, SQL
-- **Scripting for Automation**: Developed scripts for data processing, alerting, and automated incident response in security environments.
+[🔗 View Project](./Binary-Exploitation)
 
-### Key Projects
+---
 
-1. **SIEM Development with ELK Stack**
-   - Developed a full-scale SIEM using Elasticsearch, Logstash, and Kibana to manage and analyze security events.
-   - Configured RBAC for secure access control and implemented SSL/TLS for secure data transport.
-   - Set up custom alerts for various security incidents, enhancing the visibility of network activities and reducing response time.
+### 🔒 Web Application Security
+**Description:** Vulnerability assessment and exploitation of custom-built web apps using OWASP Top 10 techniques.  
+**Skills:** Burp Suite, SQLMap, XSS payloads, SSRF, CSP bypass  
+**Highlights:**
+- Identified and exploited blind XSS and insecure deserialization
+- Hardened apps with secure headers and input validation
 
-2. **Cybersecurity Research Analyst (University of Central Florida)**
-   - Conducted malware research and network security assessments.
-   - Used VMware and Wireshark to analyze and mitigate threats.
-   - Assisted in securing campus networks through policy development and vulnerability assessment.
+[🔗 View Project](./AppSec-Lab)
 
-3. **Vulnerability Assessment Lab**
-   - Created a vulnerability assessment lab using Nessus, Nmap, and Metasploit to simulate and understand various attack scenarios.
-   - Documented findings and provided remediation recommendations, honing my skills in vulnerability management and reporting.
+---
 
-## Tools & Technologies
+### 🧠 Other Notable Work
+- **SIEM Dashboards:** Built with ELK Stack for real-time security monitoring
+- **Threat Intelligence Automation:** Parsed MISP feeds and built YARA rules
+- **CTF Writeups:** [CTF Challenges and Writeups](./CTF-Writeups)
 
-| Category                   | Tools                             |
-|----------------------------|-----------------------------------|
-| **SIEM & Monitoring**      | ELK Stack (Elasticsearch, Kibana, Logstash) |
-| **Malware Analysis**       | VMware Workstation, VirtualBox, Process Monitor |
-| **Penetration Testing**    | Nessus, Metasploit, Burp Suite, Nmap |
-| **Network Analysis**       | Wireshark                         |
-| **Programming**            | Python, C/C++, SQL               |
-| **CTF Platforms**          | Ghidra, Burp Suite               |
+---
 
-## Contact
+## 🧰 Tools & Tech Stack
+`Python` `Wireshark` `Ghidra` `Burp Suite` `Metasploit` `Suricata` `Splunk` `ELK Stack` `pwntools` `Linux` `Azure`
 
-Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/your-profile) or reach out via [email@example.com](mailto:email@example.com) to discuss cybersecurity, potential collaborations, or opportunities in this exciting field.
+---
 
-## License
+## 📫 Contact
+If you'd like to collaborate, feel free to connect with me:
+- 💼 [LinkedIn](https://www.linkedin.com/in/jeanjoachim)
+- 📧 Email: jeanjoachim@example.com (replace with real email)
 
-Distributed under the MIT License. See `LICENSE` for more information.
+---
 
-## Acknowledgments
+> *“Cybersecurity is not just about defense—it’s about understanding the offense too.”*
 
-- Special thanks to the University of Central Florida for the opportunity to work as a Cybersecurity Research Analyst.
-- Gratitude to CompTIA and Google for the certifications that solidified my foundation in cybersecurity.
-- Thanks to the open-source community for the powerful tools that make cybersecurity research and practice accessible to everyone.
