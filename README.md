@@ -9,7 +9,7 @@ Welcome to my cybersecurity portfolio! This repository showcases hands-on, advan
 - **CompTIA Security+ (SY0-601)**  
   *Issued: [Month Year]*  
   Credential ID: [Add ID if applicable]  
-  [🔗 View Certificate](#) *(Optional: add a link to Credly or PDF)*
+  [🔗 View Certificate](https://www.credly.com/badges/62c2d736-7a95-4800-9547-300965c138b5/public_url) 
 
 ---
 
@@ -73,8 +73,8 @@ Welcome to my cybersecurity portfolio! This repository showcases hands-on, advan
 
 ## 📫 Contact
 If you'd like to collaborate, feel free to connect with me:
-- 💼 [LinkedIn](https://www.linkedin.com/in/jeanjoachim)
-- 📧 Email: jeanjoachim@example.com (replace with real email)
+- 💼 [LinkedIn](https://www.linkedin.com/in/jean-joachim-b421b7238/)
+- 📧 Email: joachimjean15@gmail.com
 
 ---
 
